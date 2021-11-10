@@ -1,8 +1,8 @@
 import './index.css';
-import Item from "../../components/Item/Item"
-import Item2 from "../../components/Item/Item2"
-import Enlace from "../../components/Enlace/Enlace"
-import Carrito from "../../components/CardWidget/CardWidget"
+import Item from "../../component/Item/Item"
+import Item2 from "../../component/Item/Item2"
+import Enlace from "../../component/Enlace/Enlace"
+import Carrito from "../../component/CardWidget/CardWidget"
 
 const Header = () => {
     return (
