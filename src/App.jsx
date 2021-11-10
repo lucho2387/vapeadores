@@ -4,10 +4,10 @@
 // JSX Y HTML
 /* class -> className */
 import React from 'react';
-import Header from './components/Header/Header';
+import Header from './component/Header/Header';
 // import './App.css';
 
-import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+import ItemListContainer from './component/ItemListContainer/ItemListContainer';
 
 //funcion anonima (arrowfunction)
 //Otra forma de definir la funcion
