@@ -8,7 +8,7 @@ const Header = () => {
     return (
             <header className = "header trans_300">
                 <Enlace estilo="menuHamburguesa" icono="fas fa-bars"/>
-                <a href="#" className = "logo">Ecomm<span>erce</span></a>
+                <a href="#" className = "logo">Vape<span>Shop</span></a>
                 <nav className="navbar">
                     <ul className="navbar_menu">
                         <Item valor="Inicio"/>
