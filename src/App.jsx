@@ -4,16 +4,19 @@
 // JSX Y HTML
 /* class -> className */
 import React from 'react';
-import Header from './component/Header/Header';
+import Header from './components/Header/Header';
 // import './App.css';
+
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 
 //funcion anonima (arrowfunction)
 //Otra forma de definir la funcion
 const App = () => {
   return (
-    <React.Fragment>
+    <> 
       <Header />
-    </React.Fragment>
+      <ItemListContainer saludo="Bienvenidos" />
+    </>
   )
 }
 
