@@ -5,6 +5,7 @@
 /* class -> className */
 import React from 'react';
 import Header from './component/Header/Header';
+import ItemCount from './component/ItemCount/ItemCount';
 // import './App.css';
 
 import ItemListContainer from './component/ItemListContainer/ItemListContainer';
@@ -16,6 +17,7 @@ const App = () => {
     <> 
       <Header />
       <ItemListContainer saludo="Bienvenidos" />
+      <ItemCount />
     </>
   )
 }
