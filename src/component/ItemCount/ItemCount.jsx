@@ -1,6 +1,7 @@
 import { Fragment,useState } from "react";
 import './ItemCount.css'; 
 import Modal from '../Modal/Modal'
+import Stock from "../Stock/Stock";
 
 const ItemCount = () => {
     
@@ -53,6 +54,11 @@ const ItemCount = () => {
             </div>
             {/* {numero > 0 && isOpenModal && <Modal />} */}
             <Modal
+                isOpen={isOpenModal}
+                numero={numero}
+                closeModal={closeModal}
+            />
+            <Stock
                 isOpen={isOpenModal}
                 numero={numero}
                 closeModal={closeModal}
