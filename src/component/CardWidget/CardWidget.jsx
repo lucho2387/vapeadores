@@ -1,4 +1,4 @@
-const Carrito = (props) => {
+const CardWidget = (props) => {
     return (
         <li className = {props.estiloLista}>
             <a href="#" className = {props.estiloEnlace}>
@@ -9,4 +9,4 @@ const Carrito = (props) => {
     )
 }
 
-export default Carrito
+export default CardWidget
