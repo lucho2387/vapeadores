@@ -2,7 +2,7 @@ import './index.css';
 import Item from "../../component/Item/Item"
 import Item2 from "../../component/Item/Item2"
 import Enlace from "../../component/Enlace/Enlace"
-import Carrito from "../../component/CardWidget/CardWidget"
+import CardWidget from "../../component/CardWidget/CardWidget"
 
 const Header = () => {
     return (
@@ -20,7 +20,7 @@ const Header = () => {
                     <ul className="navbar_user">
                         <Item2 icono="fa fa-search" />
                         <Item2 icono="fa fa-user" />
-                        <Carrito estiloLista = "checkout" estiloEnlace = "enlace" icono = "fa fa-shopping-cart" estiloSpan = "checkout_items" valor = "8" />
+                        <CardWidget estiloLista = "checkout" estiloEnlace = "enlace" icono = "fa fa-shopping-cart" estiloSpan = "checkout_items" valor = "8" />
                     </ul>
                 </nav>
             </header>
