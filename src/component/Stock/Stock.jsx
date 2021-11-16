@@ -1,0 +1,22 @@
+import './stock.css'
+
+const Stock = ({ isOpen, numero, closeModal}) => {
+    
+    //Para que no se cierre al hacer click dentro del modal
+    const handleModalDialogClick = (e) => {
+        e.stopPropagation();
+    }
+    
+    return (
+        <div className={`titulo2 ${numero > 5 && isOpen && 'titulo2-open'}`}  onClick={closeModal}>
+            <div className="modal__dialog1" onClick={handleModalDialogClick}>
+                <h1 className="modaltitulo2">La cantidad supera al stock actual</h1>
+                <button className="botonCerrar" onClick={closeModal}>
+                    X
+                </button>
+            </div>
+        </div>
+    )
+} 
+
+export default Stock
