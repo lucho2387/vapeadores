@@ -16,8 +16,8 @@ const App = () => {
   return (
     <> 
       <Header />
-      <ItemListContainer saludo="Bienvenidos" />
-      <ItemCount />
+      <ItemListContainer greeting="Bienvenidos" />
+      <ItemCount stock="5" limite="10"/>
     </>
   )
 }
