@@ -1,4 +1,4 @@
-import './modal.css'
+import '../Stock/stock.css'
 
 const ModalMessageError = ({ isOpen, numero, closeModal}) => {
     
@@ -9,7 +9,7 @@ const ModalMessageError = ({ isOpen, numero, closeModal}) => {
     
     return (
         <div className={`modal ${numero == 0 && isOpen && 'modal-open'}`} onClick={closeModal}>
-            <div className="modal__dialog" onClick={onHandleModalDialogClick}>
+            <div className="modal__dialog1" onClick={onHandleModalDialogClick}>
                 <h1 className="modaltitulo">La cantidad ingresada no es admitida</h1>
                 <button className="botonCerrar" onClick={closeModal}>
                     X
